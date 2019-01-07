@@ -1,0 +1,24 @@
+ $("#tiger").hide();
+ $("#text").hide();
+ $("#sentence").hide();
+ $("#last-text").hide();
+ $("#Money").hide();
+$("#click").click(function(){
+    $("body").css("background-color","cyan");
+   $("#tiger").show(); 
+});
+$("#diamond").dblclick(function(){
+    $("#text").show();
+    $("#sentence").hide();
+});
+$("#tiger").click(function(){
+    $("#tiger").hide();
+    $("#sentence").show();
+});
+$("#header").dblclick(function(){
+    $("#last-text").show();
+    $("#diamond").hide();
+    $("#text").hide();
+    $("#click").hide();
+    $("#Money").show();
+});
