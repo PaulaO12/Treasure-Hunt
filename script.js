@@ -15,7 +15,7 @@ $("#tiger").click(function(){
     $("#tiger").hide();
     $("#sentence").show();
 });
-$("#header").dblclick(function(){
+$("#header").hover(function(){
     $("#last-text").show();
     $("#diamond").hide();
     $("#text").hide();
